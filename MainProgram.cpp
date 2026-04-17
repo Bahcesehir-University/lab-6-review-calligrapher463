@@ -105,11 +105,11 @@ public:
 // TODO 6: Function Overloading - findBestStudent
 Student findBestStudent(const Student& a, const Student& b) 
 {
-    if (a > b) 
+    if (b > a) 
         {
-        return a;
+        return b;
         }
-    return b;
+    return a;
 }
 Student findBestStudent(Student arr[], int size) 
 {
