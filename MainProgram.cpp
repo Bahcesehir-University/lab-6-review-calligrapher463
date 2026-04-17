@@ -2,20 +2,7 @@
 #include <string>
 #include <cstring>
 using namespace std;
-// ================================
-// CLASS DEFINITIONS
-// ================================
-// -----------------------------------------------------------
-// Class: Student
-// Represents a university student with name, ID, and GPA.
-// This class reviews:
-//   - Encapsulation (private data, public interface)
-//   - Constructors (default, parameterized)
-//   - Destructor
-//   - Copy Constructor
-//   - Operator Overloading (<<, ==, <)
-//   - String operations
-// -----------------------------------------------------------
+
 class Student {
 private:
     string name;
